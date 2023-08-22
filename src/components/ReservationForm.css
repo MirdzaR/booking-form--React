@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+ font-size: 1.2rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  box-shadow: 0px 0px 12px #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  min-height: 550px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 8px 4px;
+  margin: 8px 0;
+  border-radius: 4px;
+}
+
+.input-label {
+  float: left;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.required label:after {
+  content: "*";
+  color: red;
+  margin-left: 3px;
+}
+
+.float-text {
+  width: 100%;
+  text-align: left;
+}
+
+button {
+  margin-top: 25px;
+  background-color: gray;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.checkbox-input {
+  width: 30px;
+  height: 30px;
+}
+
+ul.checkbox-group  {
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+  list-style: none;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  -o-column-count: 2;
+   column-count: 2;
+}
+
+ul.checkbox-group li {
+  line-height: 40px;
+}
